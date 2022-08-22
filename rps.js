@@ -28,7 +28,7 @@ function computerChoice()
 function playround(pc)
 {
     let cc=computerChoice();
-    if(pc=="rock"&&cc=="paper"|| pc=="paper"&&cc=="rock"||pc=="scissor"&&cc=="paper")
+    if(pc=="rock"&&cc=="scissor"|| pc=="paper"&&cc=="rock"||pc=="scissor"&&cc=="paper")
     {
         const pa=document.querySelector("#p1");
         playerscore=playerscore+1;
